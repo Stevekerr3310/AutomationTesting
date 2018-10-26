@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First Suite" duration-ms="12546" started-at="2018-10-26T15:51:32Z" finished-at="2018-10-26T15:51:45Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTests" duration-ms="7910" started-at="2018-10-26T15:51:32Z" finished-at="2018-10-26T15:51:40Z">
+      <class name="com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@146ba0ac]" name="before" is-config="true" duration-ms="6250" started-at="2018-10-26T15:51:32Z" finished-at="2018-10-26T15:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="launchIndexPages()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@146ba0ac]" name="launchIndexPages" duration-ms="622" started-at="2018-10-26T15:51:38Z" finished-at="2018-10-26T15:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIndexPages -->
+        <test-method status="PASS" signature="launchTablesPages()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@146ba0ac]" name="launchTablesPages" duration-ms="135" started-at="2018-10-26T15:51:39Z" finished-at="2018-10-26T15:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTablesPages -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@146ba0ac]" name="afterTest" is-config="true" duration-ms="881" started-at="2018-10-26T15:51:39Z" finished-at="2018-10-26T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest -->
+    </test> <!-- FirefoxTests -->
+    <test name="ChromeTests" duration-ms="4571" started-at="2018-10-26T15:51:40Z" finished-at="2018-10-26T15:51:45Z">
+      <class name="com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@6e06451e]" name="before" is-config="true" duration-ms="3035" started-at="2018-10-26T15:51:40Z" finished-at="2018-10-26T15:51:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="launchIndexPages()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@6e06451e]" name="launchIndexPages" duration-ms="714" started-at="2018-10-26T15:51:43Z" finished-at="2018-10-26T15:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIndexPages -->
+        <test-method status="PASS" signature="launchTablesPages()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@6e06451e]" name="launchTablesPages" duration-ms="213" started-at="2018-10-26T15:51:44Z" finished-at="2018-10-26T15:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTablesPages -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest@6e06451e]" name="afterTest" is-config="true" duration-ms="606" started-at="2018-10-26T15:51:44Z" finished-at="2018-10-26T15:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo.selenium.crossborwser.framework.CrossBrowserFrameworkTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- First Suite -->
+</testng-results>
