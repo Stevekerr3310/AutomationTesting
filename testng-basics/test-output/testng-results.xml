@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First Suite" duration-ms="11197" started-at="2018-10-26T13:27:58Z" finished-at="2018-10-26T13:28:09Z">
+    <groups>
+    </groups>
+    <test name="com-example-tests" duration-ms="11099" started-at="2018-10-26T13:27:58Z" finished-at="2018-10-26T13:28:09Z">
+      <class name="com.example.tests.GoogleSearchForIn28minutes">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.GoogleSearchForIn28minutes@57fffcd7]" name="setUp" is-config="true" duration-ms="4819" started-at="2018-10-26T13:27:58Z" finished-at="2018-10-26T13:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGoogleSearchForIn28minutes()[pri:0, instance:com.example.tests.GoogleSearchForIn28minutes@57fffcd7]" name="testGoogleSearchForIn28minutes" duration-ms="2623" started-at="2018-10-26T13:28:03Z" finished-at="2018-10-26T13:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearchForIn28minutes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.GoogleSearchForIn28minutes@57fffcd7]" name="tearDown" is-config="true" duration-ms="643" started-at="2018-10-26T13:28:05Z" finished-at="2018-10-26T13:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.GoogleSearchForIn28minutes -->
+      <class name="com.example.tests.FacebookLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.FacebookLogin@3abbfa04]" name="setUp" is-config="true" duration-ms="4811" started-at="2018-10-26T13:27:58Z" finished-at="2018-10-26T13:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFacebookLogin()[pri:0, instance:com.example.tests.FacebookLogin@3abbfa04]" name="testFacebookLogin" duration-ms="5624" started-at="2018-10-26T13:28:03Z" finished-at="2018-10-26T13:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.FacebookLogin@3abbfa04]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-10-26T13:28:08Z" finished-at="2018-10-26T13:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.FacebookLogin -->
+    </test> <!-- com-example-tests -->
+    <test name="ChromeSpecificTests" duration-ms="10" started-at="2018-10-26T13:28:09Z" finished-at="2018-10-26T13:28:09Z">
+      <class name="com.demo.test.testng.MultipleBrowserTest">
+        <test-method status="PASS" signature="runInBrowser(java.lang.String)[pri:0, instance:com.demo.test.testng.MultipleBrowserTest@5702b3b1]" name="runInBrowser" duration-ms="2" started-at="2018-10-26T13:28:09Z" finished-at="2018-10-26T13:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.demo.test.testng.MultipleBrowserTest -->
+    </test> <!-- ChromeSpecificTests -->
+    <test name="FirefoxSpecificTests" duration-ms="7" started-at="2018-10-26T13:28:09Z" finished-at="2018-10-26T13:28:09Z">
+      <class name="com.demo.test.testng.MultipleBrowserTest">
+        <test-method status="PASS" signature="runInBrowser(java.lang.String)[pri:0, instance:com.demo.test.testng.MultipleBrowserTest@5649fd9b]" name="runInBrowser" duration-ms="3" started-at="2018-10-26T13:28:09Z" finished-at="2018-10-26T13:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runInBrowser -->
+      </class> <!-- com.demo.test.testng.MultipleBrowserTest -->
+    </test> <!-- FirefoxSpecificTests -->
+  </suite> <!-- First Suite -->
+</testng-results>
