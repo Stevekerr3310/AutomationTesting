@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20692" started-at="2018-10-29T15:54:01Z" finished-at="2018-10-29T15:54:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20692" started-at="2018-10-29T15:54:01Z" finished-at="2018-10-29T15:54:21Z">
+      <class name="com.demo.datadriventests.LoginDataProviderCompleteExcelTest">
+        <test-method status="PASS" signature="testLoginForAllScenarios(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.datadriventests.LoginDataProviderCompleteExcelTest@e25b2fe]" name="testLoginForAllScenarios" duration-ms="6024" started-at="2018-10-29T15:54:01Z" data-provider="user-ids-passwords-excel-data-provider" finished-at="2018-10-29T15:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in28minutes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForAllScenarios -->
+        <test-method status="PASS" signature="testLoginForAllScenarios(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.datadriventests.LoginDataProviderCompleteExcelTest@e25b2fe]" name="testLoginForAllScenarios" duration-ms="3482" started-at="2018-10-29T15:54:07Z" data-provider="user-ids-passwords-excel-data-provider" finished-at="2018-10-29T15:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForAllScenarios -->
+        <test-method status="PASS" signature="testLoginForAllScenarios(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.datadriventests.LoginDataProviderCompleteExcelTest@e25b2fe]" name="testLoginForAllScenarios" duration-ms="3511" started-at="2018-10-29T15:54:11Z" data-provider="user-ids-passwords-excel-data-provider" finished-at="2018-10-29T15:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adam@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForAllScenarios -->
+        <test-method status="PASS" signature="testLoginForAllScenarios(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.datadriventests.LoginDataProviderCompleteExcelTest@e25b2fe]" name="testLoginForAllScenarios" duration-ms="3502" started-at="2018-10-29T15:54:14Z" data-provider="user-ids-passwords-excel-data-provider" finished-at="2018-10-29T15:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForAllScenarios -->
+        <test-method status="PASS" signature="testLoginForAllScenarios(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demo.datadriventests.LoginDataProviderCompleteExcelTest@e25b2fe]" name="testLoginForAllScenarios" duration-ms="3601" started-at="2018-10-29T15:54:18Z" data-provider="user-ids-passwords-excel-data-provider" finished-at="2018-10-29T15:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eve@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForAllScenarios -->
+      </class> <!-- com.demo.datadriventests.LoginDataProviderCompleteExcelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
