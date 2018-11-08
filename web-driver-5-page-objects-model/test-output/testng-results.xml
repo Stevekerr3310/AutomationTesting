@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8161" started-at="2018-10-31T07:57:42Z" finished-at="2018-10-31T07:57:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8161" started-at="2018-10-31T07:57:42Z" finished-at="2018-10-31T07:57:50Z">
+      <class name="com.demo.pageobjects.updatedoto.UpdateTodoBasicTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.pageobjects.updatedoto.UpdateTodoBasicTest@42e26948]" name="beforeTest" is-config="true" duration-ms="5291" started-at="2018-10-31T07:57:42Z" finished-at="2018-10-31T07:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="updateTodo()[pri:0, instance:com.demo.pageobjects.updatedoto.UpdateTodoBasicTest@42e26948]" name="updateTodo" duration-ms="2170" started-at="2018-10-31T07:57:47Z" finished-at="2018-10-31T07:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTodo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.pageobjects.updatedoto.UpdateTodoBasicTest@42e26948]" name="afterTest" is-config="true" duration-ms="657" started-at="2018-10-31T07:57:50Z" finished-at="2018-10-31T07:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo.pageobjects.updatedoto.UpdateTodoBasicTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
